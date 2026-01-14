@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let numbers = [40, 60, 80];
+numbers.push(100);
+numbers.unshift(20);
+numbers.pop();
+numbers.shift();
+console.log(numbers);
+let numbers_ro = [100, 200, 300];
+console.log(numbers_ro);
